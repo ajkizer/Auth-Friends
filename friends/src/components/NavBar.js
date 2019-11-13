@@ -11,14 +11,14 @@ const NavBar = () => {
       <div className="links">
         {localStorage.getItem("token") ? (
           <div>
-            <a href="#">Hello, User!</a>
+            <a href="/friendslist">Hello, User!</a>
             <a href="#" onClick={() => localStorage.clear()}>
               Log Out
             </a>
           </div>
         ) : (
           <div>
-            <a href="#">Login</a>
+            <a href="/login">Login</a>
             <a href="#">Sign Up</a>
           </div>
         )}
@@ -26,3 +26,5 @@ const NavBar = () => {
     </div>
   );
 };
+
+export default NavBar;
