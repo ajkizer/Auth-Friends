@@ -1,0 +1,278 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.Home {
+  display: flex;
+  justify-content: space-between;
+  height: 95vh;
+}
+.Home .text {
+  width: 40%;
+  margin-top: 10%;
+}
+.Home .text h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+.Home .text h3 {
+  font-size: 1.5rem;
+}
+.Home .text .link {
+  padding: 2% 4%;
+  border: 1px solid black;
+  width: 50px;
+  margin: 3% auto;
+}
+.Home .text .link:hover {
+  cursor: pointer;
+}
+.Home .text .link .link-text {
+  text-decoration: none;
+  color: black;
+}
+.Home .image {
+  width: 60%;
+  height: 95vh;
+  overflow: hidden;
+}
+.Home .image img {
+  height: 95vh;
+}
+.Login {
+  margin: 3% auto;
+  border: 1px solid #323232;
+  border-radius: 5px;
+  width: 30%;
+  height: 300px;
+  background: #e8e8e8;
+}
+.Login form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding: 5%;
+}
+.Login form img {
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+  margin: auto;
+}
+.Login form .form-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+.Login form .form-content h3 {
+  font-size: 1.5rem;
+}
+.Login form .form-content input {
+  margin: 3%;
+  border-radius: 3px;
+  border: 1px solid black;
+  background: #ededed;
+}
+.Login form button {
+  width: 110px;
+  background: #ff0b55;
+  border-radius: 5px;
+  color: #e8e8e8;
+  border: none;
+  font-weight: bold;
+  margin: auto;
+  padding: 8px;
+  margin-top: 5%;
+}
+.Login form button:hover {
+  cursor: pointer;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form input {
+  width: 300px;
+  margin: 1% auto;
+  border-radius: 3px;
+  border: 0.5px solid #323232;
+  padding-left: 5px;
+}
+form button {
+  width: 100px;
+  margin: auto;
+  border: 0.5px solid #323232;
+  background: #ff0b55;
+  color: #e8e8e8;
+  font-weight: bold;
+  border-radius: 3px;
+}
+.Friend {
+  width: 200px;
+  height: 100px;
+  border: 2px solid #e8e8e8;
+  border-radius: 5px;
+}
+.FriendsList-container {
+  margin-top: 3%;
+}
+.FriendsList-container form {
+  margin: 1% 0 5%;
+}
+.FriendsList-container .FriendList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0 5%;
+}
+.FriendsList-container .FriendList .Friend {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1% 0;
+}
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 3.5%;
+  background: #ff0b55;
+  height: 5vh;
+}
+.NavBar .logo {
+  width: 12%;
+}
+.NavBar .logo img {
+  max-width: 100%;
+}
+.NavBar .links {
+  width: 15%;
+}
+.NavBar .links a {
+  padding: 0 3%;
+  text-decoration: none;
+  color: #e8e8e8;
+  font-weight: bold;
+}
